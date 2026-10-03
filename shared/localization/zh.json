@@ -1,0 +1,84 @@
+{
+  "@@locale": "zh",
+  "appTitle": "QuickSleep",
+  "introTitle": "让呼吸慢下来",
+  "introSubtitle": "呼吸引导 · 音乐陪伴",
+  "durationTitle": "助眠时长",
+  "minutes": "{count}分钟",
+  "customDuration": "自定义",
+  "durationHint": "含呼吸引导 · 最后 15 秒淡出",
+  "soundMode": "声音模式",
+  "change": "更换",
+  "modeMoon": "月下轻语",
+  "modeMountain": "山间静心",
+  "modeForest": "林间晚风",
+  "descMoon": "轻柔合成女声 · 氛围音乐",
+  "descMountain": "沉稳合成男声 · 仿古琴合成音",
+  "descForest": "自然合成轻声 · 风声与树叶",
+  "mixedHint": "语音与配乐已搭配好",
+  "start": "开始放松",
+  "lockHint": "锁屏后继续播放",
+  "soundHint": "选一种声音，陪你慢慢入睡",
+  "preview": "试听",
+  "stopPreview": "停止试听",
+  "close": "关闭",
+  "save": "保存",
+  "cancel": "取消",
+  "customTitle": "自定义时长",
+  "customHint": "输入 2–60 的整数分钟",
+  "customError": "请输入 2–60 的整数分钟",
+  "settings": "设置",
+  "language": "语言",
+  "theme": "主题",
+  "system": "跟随系统",
+  "night": "夜间",
+  "light": "浅色",
+  "chinese": "简体中文",
+  "english": "English",
+  "sessionTitle": "助眠练习",
+  "pause": "暂停",
+  "resume": "继续",
+  "end": "结束",
+  "backHome": "返回准备页",
+  "loading": "正在准备声音",
+  "paused": "已暂停",
+  "completed": "安静休息吧",
+  "inhale": "吸气",
+  "hold": "屏息",
+  "exhale": "呼气",
+  "natural": "自然呼吸",
+  "fading": "渐渐安静",
+  "round": "第 {count} 轮 / 共 4 轮",
+  "remaining": "剩余 {time}",
+  "audioError": "声音未能播放，请返回后重试",
+  "startupError": "无法加载本地声音，请重试或重新安装",
+  "retry": "重试",
+  "saveError": "设置未能保存，下次打开可能会恢复默认",
+  "safetyHint": "呼吸不适时，可随时结束并恢复自然呼吸",
+  "offlineNote": "完全离线 · 无账号 · 无统计",
+  "syntheticNote": "语音与背景均为合成内容；仿古琴合成音并非真实古琴演奏",
+  "nextSessionHint": "语言与声音更改将在下一次练习生效",
+  "previewError": "试听未能播放，请重试",
+  "@minutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@round": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@remaining": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "restartRequired": "声音服务未能启动，请完全退出并重新打开 QuickSleep"
+}

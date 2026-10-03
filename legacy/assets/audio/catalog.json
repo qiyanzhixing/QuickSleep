@@ -1,0 +1,326 @@
+[
+  {
+    "id": "shared.moon.bed",
+    "path": "beds/moon_bed.wav",
+    "locale": "shared",
+    "mode": "moon",
+    "role": "bed",
+    "durationMs": 60000,
+    "sha256": "f9c4a84f65a3ebf301977a005923fe5f32d26ee8a25b3eb2048aaa2eda4fe0b8",
+    "provenance": {
+      "source": "Original deterministic NumPy synthesis",
+      "generator": "tools/audio/generate_assets.py",
+      "seed": 480,
+      "description": "Original synthesized ambience"
+    }
+  },
+  {
+    "id": "shared.moon.fade",
+    "path": "beds/moon_fade.wav",
+    "locale": "shared",
+    "mode": "moon",
+    "role": "fade",
+    "durationMs": 15000,
+    "sha256": "9f00416feec14dc2ede223921010607e87c143bce94d76e8263046a9b9f2b11c",
+    "provenance": {
+      "source": "Original bed samples 25–40 seconds with baked fade",
+      "generator": "tools/audio/generate_assets.py"
+    }
+  },
+  {
+    "id": "shared.mountain.bed",
+    "path": "beds/mountain_bed.wav",
+    "locale": "shared",
+    "mode": "mountain",
+    "role": "bed",
+    "durationMs": 60000,
+    "sha256": "3de56414603227c05ce621cdbd19f32c440cd05d0d88c71f9481c504629df197",
+    "provenance": {
+      "source": "Original deterministic NumPy synthesis",
+      "generator": "tools/audio/generate_assets.py",
+      "seed": 481,
+      "description": "仿古琴合成音"
+    }
+  },
+  {
+    "id": "shared.mountain.fade",
+    "path": "beds/mountain_fade.wav",
+    "locale": "shared",
+    "mode": "mountain",
+    "role": "fade",
+    "durationMs": 15000,
+    "sha256": "9d8bd57de3f36464a6707793d5449c39aee6c49f968617fbc62b9fc180bba6ea",
+    "provenance": {
+      "source": "Original bed samples 25–40 seconds with baked fade",
+      "generator": "tools/audio/generate_assets.py"
+    }
+  },
+  {
+    "id": "shared.forest.bed",
+    "path": "beds/forest_bed.wav",
+    "locale": "shared",
+    "mode": "forest",
+    "role": "bed",
+    "durationMs": 60000,
+    "sha256": "817edca273e00ac62ec7a1384cb3c2bddb60d6a19b65ddcfd6a84c90144f949d",
+    "provenance": {
+      "source": "Original deterministic NumPy synthesis",
+      "generator": "tools/audio/generate_assets.py",
+      "seed": 482,
+      "description": "Original synthesized ambience"
+    }
+  },
+  {
+    "id": "shared.forest.fade",
+    "path": "beds/forest_fade.wav",
+    "locale": "shared",
+    "mode": "forest",
+    "role": "fade",
+    "durationMs": 15000,
+    "sha256": "59679df82b46384df4f8c7eb4326b6c855ee22799b748e9f042f26a582455e48",
+    "provenance": {
+      "source": "Original bed samples 25–40 seconds with baked fade",
+      "generator": "tools/audio/generate_assets.py"
+    }
+  },
+  {
+    "id": "zh.moon.guide",
+    "path": "zh/moon_guide.wav",
+    "locale": "zh",
+    "mode": "moon",
+    "role": "guide",
+    "durationMs": 80000,
+    "sha256": "94f39275a6297a5c7dcba6c01695e7518b8de7eedb828601f8a6ed2deeae3fb4",
+    "provenance": {
+      "source": "hexgrad/Kokoro-82M",
+      "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "voiceSha256": "9b76be63dab4f4f96962030acc0126a9aee9728608fbbe115e2b58a2bd504df6",
+      "license": "Apache-2.0",
+      "voice": "zf_xiaobei",
+      "engine": "kokoro 0.9.4",
+      "synthetic": true,
+      "timing": "4 rounds of 4+7+8 seconds; 4-second transition",
+      "originalBackground": "moon"
+    }
+  },
+  {
+    "id": "zh.moon.preview",
+    "path": "zh/moon_preview.wav",
+    "locale": "zh",
+    "mode": "moon",
+    "role": "preview",
+    "durationMs": 8000,
+    "sha256": "f0eca6085fbdcaea61807b65433856cf38de810fc25a395c216f4c9ef19c80b5",
+    "provenance": {
+      "source": "hexgrad/Kokoro-82M",
+      "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "voiceSha256": "9b76be63dab4f4f96962030acc0126a9aee9728608fbbe115e2b58a2bd504df6",
+      "license": "Apache-2.0",
+      "voice": "zf_xiaobei",
+      "engine": "kokoro 0.9.4",
+      "synthetic": true,
+      "timing": "4 rounds of 4+7+8 seconds; 4-second transition",
+      "originalBackground": "moon"
+    }
+  },
+  {
+    "id": "zh.mountain.guide",
+    "path": "zh/mountain_guide.wav",
+    "locale": "zh",
+    "mode": "mountain",
+    "role": "guide",
+    "durationMs": 80000,
+    "sha256": "056f7aca9ab96a84e4999416e662da4ff71bcf91ef6626ca244022c9ac89eaf6",
+    "provenance": {
+      "source": "hexgrad/Kokoro-82M",
+      "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "voiceSha256": "76cbf8bad35901d011d9628a2fdceb7b4f1f127e7a3269cb393b3941eb7fc417",
+      "license": "Apache-2.0",
+      "voice": "zm_yunjian",
+      "engine": "kokoro 0.9.4",
+      "synthetic": true,
+      "timing": "4 rounds of 4+7+8 seconds; 4-second transition",
+      "originalBackground": "mountain"
+    }
+  },
+  {
+    "id": "zh.mountain.preview",
+    "path": "zh/mountain_preview.wav",
+    "locale": "zh",
+    "mode": "mountain",
+    "role": "preview",
+    "durationMs": 8000,
+    "sha256": "3b002741355ed3959a57d5a17ebf59128a356051609a1465b2271e9dc6f68391",
+    "provenance": {
+      "source": "hexgrad/Kokoro-82M",
+      "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "voiceSha256": "76cbf8bad35901d011d9628a2fdceb7b4f1f127e7a3269cb393b3941eb7fc417",
+      "license": "Apache-2.0",
+      "voice": "zm_yunjian",
+      "engine": "kokoro 0.9.4",
+      "synthetic": true,
+      "timing": "4 rounds of 4+7+8 seconds; 4-second transition",
+      "originalBackground": "mountain"
+    }
+  },
+  {
+    "id": "zh.forest.guide",
+    "path": "zh/forest_guide.wav",
+    "locale": "zh",
+    "mode": "forest",
+    "role": "guide",
+    "durationMs": 80000,
+    "sha256": "1fa8bff73040316d220865a9ebcf4c2bef9081dcd64e1010b4ca504e528e9e05",
+    "provenance": {
+      "source": "hexgrad/Kokoro-82M",
+      "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "voiceSha256": "cfaf6f2ded1ee56f1ff94fcd2b0e6cdf32e5b794bdc05b44e7439d44aef5887c",
+      "license": "Apache-2.0",
+      "voice": "zf_xiaoxiao",
+      "engine": "kokoro 0.9.4",
+      "synthetic": true,
+      "timing": "4 rounds of 4+7+8 seconds; 4-second transition",
+      "originalBackground": "forest"
+    }
+  },
+  {
+    "id": "zh.forest.preview",
+    "path": "zh/forest_preview.wav",
+    "locale": "zh",
+    "mode": "forest",
+    "role": "preview",
+    "durationMs": 8000,
+    "sha256": "cb05f83c11f0db5cce8f39af3ea16a13a56ca842df407b6db622bedad9d92db4",
+    "provenance": {
+      "source": "hexgrad/Kokoro-82M",
+      "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "voiceSha256": "cfaf6f2ded1ee56f1ff94fcd2b0e6cdf32e5b794bdc05b44e7439d44aef5887c",
+      "license": "Apache-2.0",
+      "voice": "zf_xiaoxiao",
+      "engine": "kokoro 0.9.4",
+      "synthetic": true,
+      "timing": "4 rounds of 4+7+8 seconds; 4-second transition",
+      "originalBackground": "forest"
+    }
+  },
+  {
+    "id": "en.moon.guide",
+    "path": "en/moon_guide.wav",
+    "locale": "en",
+    "mode": "moon",
+    "role": "guide",
+    "durationMs": 80000,
+    "sha256": "34786b941207b87e872e1dfb2bd2f4b4586a46e3d87b4fb675bcf343a070f953",
+    "provenance": {
+      "source": "hexgrad/Kokoro-82M",
+      "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+      "license": "Apache-2.0",
+      "voice": "af_heart",
+      "engine": "kokoro 0.9.4",
+      "synthetic": true,
+      "timing": "4 rounds of 4+7+8 seconds; 4-second transition",
+      "originalBackground": "moon"
+    }
+  },
+  {
+    "id": "en.moon.preview",
+    "path": "en/moon_preview.wav",
+    "locale": "en",
+    "mode": "moon",
+    "role": "preview",
+    "durationMs": 8000,
+    "sha256": "1dfe8a2e194e60940c56214c2b8b3d9c35ef31e351ffacf91afc882c9e767c99",
+    "provenance": {
+      "source": "hexgrad/Kokoro-82M",
+      "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+      "license": "Apache-2.0",
+      "voice": "af_heart",
+      "engine": "kokoro 0.9.4",
+      "synthetic": true,
+      "timing": "4 rounds of 4+7+8 seconds; 4-second transition",
+      "originalBackground": "moon"
+    }
+  },
+  {
+    "id": "en.mountain.guide",
+    "path": "en/mountain_guide.wav",
+    "locale": "en",
+    "mode": "mountain",
+    "role": "guide",
+    "durationMs": 80000,
+    "sha256": "3a0c3522ef2a6d7dac3853968c25a166808522b1582c0a3c6fdbb85343994edd",
+    "provenance": {
+      "source": "hexgrad/Kokoro-82M",
+      "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "voiceSha256": "9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37",
+      "license": "Apache-2.0",
+      "voice": "am_michael",
+      "engine": "kokoro 0.9.4",
+      "synthetic": true,
+      "timing": "4 rounds of 4+7+8 seconds; 4-second transition",
+      "originalBackground": "mountain"
+    }
+  },
+  {
+    "id": "en.mountain.preview",
+    "path": "en/mountain_preview.wav",
+    "locale": "en",
+    "mode": "mountain",
+    "role": "preview",
+    "durationMs": 8000,
+    "sha256": "593d09ce093cd7d3a2f01f4aa227b6d8909113c30e5debbbca4d4e7b7ecdfa40",
+    "provenance": {
+      "source": "hexgrad/Kokoro-82M",
+      "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "voiceSha256": "9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37",
+      "license": "Apache-2.0",
+      "voice": "am_michael",
+      "engine": "kokoro 0.9.4",
+      "synthetic": true,
+      "timing": "4 rounds of 4+7+8 seconds; 4-second transition",
+      "originalBackground": "mountain"
+    }
+  },
+  {
+    "id": "en.forest.guide",
+    "path": "en/forest_guide.wav",
+    "locale": "en",
+    "mode": "forest",
+    "role": "guide",
+    "durationMs": 80000,
+    "sha256": "02526a829626d0f00223b8f9d83c55393a9571896fc7fa8c87cf5f3a6ed69507",
+    "provenance": {
+      "source": "hexgrad/Kokoro-82M",
+      "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "voiceSha256": "49bd364ea3be9eb3e9685e8f9a15448c4883112a7c0ff7ab139fa4088b08cef9",
+      "license": "Apache-2.0",
+      "voice": "af_sarah",
+      "engine": "kokoro 0.9.4",
+      "synthetic": true,
+      "timing": "4 rounds of 4+7+8 seconds; 4-second transition",
+      "originalBackground": "forest"
+    }
+  },
+  {
+    "id": "en.forest.preview",
+    "path": "en/forest_preview.wav",
+    "locale": "en",
+    "mode": "forest",
+    "role": "preview",
+    "durationMs": 8000,
+    "sha256": "a9a89dce72c2c77925130ed8930d121204d3029962555746364367417e1b560c",
+    "provenance": {
+      "source": "hexgrad/Kokoro-82M",
+      "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "voiceSha256": "49bd364ea3be9eb3e9685e8f9a15448c4883112a7c0ff7ab139fa4088b08cef9",
+      "license": "Apache-2.0",
+      "voice": "af_sarah",
+      "engine": "kokoro 0.9.4",
+      "synthetic": true,
+      "timing": "4 rounds of 4+7+8 seconds; 4-second transition",
+      "originalBackground": "forest"
+    }
+  }
+]

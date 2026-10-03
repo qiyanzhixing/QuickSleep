@@ -1,0 +1,29 @@
+[
+  {
+    "file": "NotoSansSC.ttf",
+    "weight": 400,
+    "source": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+    "sourceSha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+    "sha256": "c6d2781a454d4f379009fe24c4ce5dd11e0e0186586f7f4440a54a6b07e94d08",
+    "modifications": "Glyph subset and static weight instantiation",
+    "license": "SIL OFL 1.1"
+  },
+  {
+    "file": "NotoSansSC-Medium.ttf",
+    "weight": 500,
+    "source": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+    "sourceSha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+    "sha256": "2a17c400596cb644577af8494ea88baf390e1ca39f2723f8e3af6631f3143966",
+    "modifications": "Glyph subset and static weight instantiation",
+    "license": "SIL OFL 1.1"
+  },
+  {
+    "file": "NotoSerifSC.ttf",
+    "weight": 400,
+    "source": "https://github.com/google/fonts/tree/main/ofl/notoserifsc",
+    "sourceSha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+    "sha256": "f249f28bddd5fca101e3f55a72e15035d1d32ca29797c3512606ca5c45291799",
+    "modifications": "Glyph subset and static weight instantiation",
+    "license": "SIL OFL 1.1"
+  }
+]

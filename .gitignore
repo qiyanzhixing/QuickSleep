@@ -60,3 +60,17 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Native build outputs and locally restored resources
+.tools/
+.gradle/
+**/build/
+**/local.properties
+**/__pycache__/
+apps/android/app/src/main/assets/
+apps/android/app/src/main/res/font/
+apps/android/app/src/main/res/drawable-nodpi/
+apps/ios/QuickSleep/Resources/
+shared/assets/audio/**/*.wav
+shared/assets/fonts/
+.DS_Store

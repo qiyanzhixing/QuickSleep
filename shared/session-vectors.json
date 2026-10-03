@@ -1,0 +1,18 @@
+{
+  "durationMinutes": [2, 5, 10, 15, 60],
+  "boundaries": [
+    {"seconds": -10, "phase": "inhale", "elapsed": 0, "cycle": 1, "count": 1},
+    {"seconds": 0, "phase": "inhale", "elapsed": 0, "cycle": 1, "count": 1},
+    {"seconds": 3.999, "phase": "inhale", "elapsed": 3.999, "cycle": 1, "count": 4},
+    {"seconds": 4, "phase": "hold", "elapsed": 4, "cycle": 1, "count": 1},
+    {"seconds": 10.999, "phase": "hold", "elapsed": 10.999, "cycle": 1, "count": 7},
+    {"seconds": 11, "phase": "exhale", "elapsed": 11, "cycle": 1, "count": 1},
+    {"seconds": 19, "phase": "inhale", "elapsed": 19, "cycle": 2, "count": 1},
+    {"seconds": 75, "phase": "exhale", "elapsed": 75, "cycle": 4, "count": 8},
+    {"seconds": 76, "phase": "transition", "elapsed": 76, "cycle": null, "count": null},
+    {"seconds": 80, "phase": "natural", "elapsed": 80, "cycle": null, "count": null},
+    {"seconds": 105, "phase": "fade", "elapsed": 105, "cycle": null, "count": null},
+    {"seconds": 120, "phase": "complete", "elapsed": 120, "cycle": null, "count": null},
+    {"seconds": 200, "phase": "complete", "elapsed": 120, "cycle": null, "count": null}
+  ]
+}

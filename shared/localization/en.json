@@ -1,0 +1,84 @@
+{
+  "@@locale": "en",
+  "appTitle": "QuickSleep",
+  "introTitle": "Let your breath slow",
+  "introSubtitle": "Guided breaths · Quiet company",
+  "durationTitle": "Session duration",
+  "minutes": "{count} min",
+  "customDuration": "Custom",
+  "durationHint": "Guidance included · Fades in the last 15 seconds",
+  "soundMode": "Sound mode",
+  "change": "Change",
+  "modeMoon": "Moonlit Whispers",
+  "modeMountain": "Mountain Stillness",
+  "modeForest": "Forest Evening Breeze",
+  "descMoon": "Soft synthesized female voice · Ambient music",
+  "descMountain": "Calm synthesized male voice · Guqin-inspired synthesis",
+  "descForest": "Quiet synthesized voice · Wind and leaves",
+  "mixedHint": "Voice and background are already balanced",
+  "start": "Begin relaxing",
+  "lockHint": "Keeps playing with your screen locked",
+  "soundHint": "Choose a sound to settle into",
+  "preview": "Preview",
+  "stopPreview": "Stop preview",
+  "close": "Close",
+  "save": "Save",
+  "cancel": "Cancel",
+  "customTitle": "Custom duration",
+  "customHint": "Enter a whole number from 2 to 60",
+  "customError": "Use a whole number from 2 to 60",
+  "settings": "Settings",
+  "language": "Language",
+  "theme": "Appearance",
+  "system": "Use system setting",
+  "night": "Night",
+  "light": "Light",
+  "chinese": "简体中文",
+  "english": "English",
+  "sessionTitle": "Relaxation session",
+  "pause": "Pause",
+  "resume": "Resume",
+  "end": "End session",
+  "backHome": "Back to home",
+  "loading": "Preparing your sounds",
+  "paused": "Paused",
+  "completed": "Rest quietly",
+  "inhale": "Breathe in",
+  "hold": "Hold gently",
+  "exhale": "Breathe out",
+  "natural": "Breathe naturally",
+  "fading": "Settling into quiet",
+  "round": "Round {count} of 4",
+  "remaining": "{time} remaining",
+  "audioError": "Audio could not play. Go back and try again",
+  "startupError": "Could not load bundled sounds. Retry or reinstall the app",
+  "retry": "Retry",
+  "saveError": "Settings could not be saved for your next visit",
+  "safetyHint": "If breathing feels uncomfortable, stop and breathe naturally",
+  "offlineNote": "Fully offline · No account · No tracking",
+  "syntheticNote": "Voices and backgrounds are synthesized. Guqin-inspired sounds are not a real guqin performance",
+  "nextSessionHint": "Language and sound changes apply to your next session",
+  "previewError": "Preview could not play. Try again",
+  "@minutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@round": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@remaining": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "restartRequired": "The audio service could not start. Fully close QuickSleep and reopen it."
+}

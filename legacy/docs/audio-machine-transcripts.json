@@ -1,0 +1,65 @@
+{
+  "method": "Whisper small diagnostic transcription, first round of guides and full previews; not human listening approval",
+  "results": [
+    {
+      "file": "assets/audio/zh/forest_guide.wav",
+      "checkedSeconds": 19,
+      "transcript": "7 7 1 2 1 3 4 并系1 2 1 3 4 5 6 7 2 呼气1 2 1 3 4 5 6 7 2 拜拜"
+    },
+    {
+      "file": "assets/audio/zh/forest_preview.wav",
+      "checkedSeconds": 8,
+      "transcript": "讓呼吸慢下來輕輕放鬆。"
+    },
+    {
+      "file": "assets/audio/zh/moon_guide.wav",
+      "checkedSeconds": 19,
+      "transcript": "吸氣也 二 散 滋 冰息也 二 散 滋 五 六 七 呼氣也 二 散 滋 五 六 七 八"
+    },
+    {
+      "file": "assets/audio/zh/moon_preview.wav",
+      "checkedSeconds": 8,
+      "transcript": "让呼吸慢下来,请请放松。"
+    },
+    {
+      "file": "assets/audio/zh/mountain_guide.wav",
+      "checkedSeconds": 19,
+      "transcript": "吸气 二人 三 子 冰系 二人 三 子 五 六 七 呼气 二人 三 子 五 六 七 八"
+    },
+    {
+      "file": "assets/audio/zh/mountain_preview.wav",
+      "checkedSeconds": 8,
+      "transcript": "让呼吸慢下来,轻轻放松。"
+    },
+    {
+      "file": "assets/audio/en/forest_guide.wav",
+      "checkedSeconds": 19,
+      "transcript": " In ones, two, three, four.  Hold ones, two, three, four, five, six, seven.  Out ones, two, three, four, five, six, seven, eight."
+    },
+    {
+      "file": "assets/audio/en/forest_preview.wav",
+      "checkedSeconds": 8,
+      "transcript": " Slow your breathing and gently relax."
+    },
+    {
+      "file": "assets/audio/en/moon_guide.wav",
+      "checkedSeconds": 19,
+      "transcript": " In 1, 2, 3, 4, hold 1, 2, 3, 4, 5, 6, 7, out 1, 2, 3, 4, 5, 6, 7, 8."
+    },
+    {
+      "file": "assets/audio/en/moon_preview.wav",
+      "checkedSeconds": 8,
+      "transcript": " Slow your breathing and gently relax."
+    },
+    {
+      "file": "assets/audio/en/mountain_guide.wav",
+      "checkedSeconds": 19,
+      "transcript": " In 1, 2, 3, 4, hold 1, 2, 3, 4, 5, 6, 7, out 1, 2, 3, 4, 5, 6, 7, 8."
+    },
+    {
+      "file": "assets/audio/en/mountain_preview.wav",
+      "checkedSeconds": 8,
+      "transcript": " Slow your breathing and gently relax."
+    }
+  ]
+}
