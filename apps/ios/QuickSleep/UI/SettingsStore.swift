@@ -49,4 +49,3 @@ extension SoundMode {
     var nameKey: String { "mode" + rawValue.prefix(1).uppercased() + rawValue.dropFirst() }
     var descriptionKey: String { "desc" + rawValue.prefix(1).uppercased() + rawValue.dropFirst() }
 }
-

@@ -233,4 +233,3 @@ fun QuickSleepScreen(playback: PlaybackUi, command: (String, SessionConfig?) -> 
             modifier = Modifier.requiredSize(164.dp).graphicsLayer { scaleX = scale.toFloat(); scaleY = scale.toFloat(); alpha = if (frame?.phase == Phase.complete) .5f else 1f })
     }
 }
-

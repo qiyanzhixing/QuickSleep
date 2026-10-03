@@ -61,7 +61,7 @@ def generate():
     project = obj('project', f'isa = PBXProject; attributes = {{ LastUpgradeCheck = 1600; }}; buildConfigurationList = {project_list}; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; knownRegions = (en, zh, Base); mainGroup = {main}; productRefGroup = {product_group}; projectDirPath = ""; projectRoot = ""; targets = {refs([target])};')
     directory = ROOT / 'QuickSleep.xcodeproj'
     directory.mkdir(exist_ok=True)
-    (directory / 'project.pbxproj').write_text('// !$*UTF8*$!\n{\n\tarchiveVersion = 1;\n\tclasses = {};\n\tobjectVersion = 56;\n\tobjects = {\n' + '\n'.join(objects) + f'\n\t}};\n\trootObject = {project};\n}}\n', encoding='utf-8')
+    (directory / 'project.pbxproj').write_text('// !$*UTF8*$!\n{\n\tarchiveVersion = 1;\n\tclasses = {};\n\tobjectVersion = 56;\n\tobjects = {\n' + '\n'.join(objects) + f'\n\t}};\n\trootObject = {project};\n}}\n', encoding='utf-8', newline='\n')
     scheme = directory / 'xcshareddata/xcschemes'
     scheme.mkdir(parents=True, exist_ok=True)
     (scheme / 'QuickSleep.xcscheme').write_text(f'''<?xml version="1.0" encoding="UTF-8"?>
@@ -73,7 +73,7 @@ def generate():
 <AnalyzeAction buildConfiguration="Debug"/>
 <ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES"/>
 </Scheme>
-''', encoding='utf-8')
+''', encoding='utf-8', newline='\n')
     print(f'Generated native Xcode project: {directory}')
 
 if __name__ == '__main__':

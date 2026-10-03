@@ -121,4 +121,3 @@ struct QuickSleepView: View {
         }.padding(.bottom, 24)
     }
 }
-

@@ -1,0 +1,11 @@
+* text=auto
+*.sh text eol=lf
+gradlew text eol=lf
+*.bat text eol=crlf
+*.bin binary
+*.png binary
+*.jar binary
+*.ttf binary
+*.wav binary
+# Preserve the imported reference directory's exact original bytes.
+legacy/** -text

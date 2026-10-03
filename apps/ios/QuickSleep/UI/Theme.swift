@@ -56,4 +56,3 @@ struct BreathingOrb: View {
         .padding(.vertical, 14).accessibilityHidden(true)
     }
 }
-

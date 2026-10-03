@@ -59,10 +59,10 @@ def prepare(destination=None):
         res = android / ('res/values-zh' if language == 'zh' else 'res/values')
         res.mkdir(parents=True, exist_ok=True)
         text = '<resources>\n' + '\n'.join(f'  <string name="{k}" formatted="false">{escape(v).replace(chr(39), chr(92)+chr(39))}</string>' for k, v in values.items()) + '\n</resources>\n'
-        (res / 'strings.xml').write_text(text, encoding='utf-8')
+        (res / 'strings.xml').write_text(text, encoding='utf-8', newline='\n')
         lproj = ios / f'{language}.lproj'
         lproj.mkdir(parents=True, exist_ok=True)
-        (lproj / 'Localizable.strings').write_text('\n'.join(f'{json.dumps(k)} = {json.dumps(v, ensure_ascii=False)};' for k, v in values.items()) + '\n', encoding='utf-8')
+        (lproj / 'Localizable.strings').write_text('\n'.join(f'{json.dumps(k)} = {json.dumps(v, ensure_ascii=False)};' for k, v in values.items()) + '\n', encoding='utf-8', newline='\n')
     print('PASS: 18 audio files, fonts, visuals, licenses and bilingual native resources')
 
 if __name__ == '__main__':

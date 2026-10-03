@@ -95,4 +95,3 @@ struct DurationSheet: View {
             .onAppear { text = "\(settings.value.minutes)" }
     }
 }
-
