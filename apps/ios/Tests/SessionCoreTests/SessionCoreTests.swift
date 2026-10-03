@@ -52,8 +52,8 @@ final class SessionCoreTests: XCTestCase {
         try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
         defer { try? FileManager.default.removeItem(at: directory) }
         for segment in plan.segments {
-            let seconds = segment.path.contains("bed") ? 60 : segment.seconds
-            let value: UInt8 = segment.path.contains("guide") ? 1 : segment.path.contains("bed") ? 2 : 3
+            let seconds = segment.path.hasSuffix("_bed.wav") ? 60 : segment.seconds
+            let value: UInt8 = segment.path.hasSuffix("_guide.wav") ? 1 : segment.path.hasSuffix("_bed.wav") ? 2 : 3
             let source = directory.appendingPathComponent(segment.path.replacingOccurrences(of: "/", with: "_"))
             try (WaveAssembler.header(byteCount: seconds * 48000) + Data(repeating: value, count: seconds * 48000)).write(to: source)
         }
