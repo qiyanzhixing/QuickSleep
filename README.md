@@ -8,6 +8,7 @@ apps/ios/           iOS 原生工程（iOS 16+）与 Swift 核心测试
 shared/             音频源包、授权、视觉素材、文案、跨平台行为样例
 docs/product/       确认的功能与交互要求
 docs/architecture/  原生实现与平台差异
+docs/design/        Figma 入口、UI 设计基准与原生页面对应关系
 scripts/            离线素材恢复、校验、工程生成
 legacy/             旧版参考
 ```
@@ -66,7 +67,7 @@ xcodebuild -project apps/ios/QuickSleep.xcodeproj -scheme QuickSleep \
 
 开始前在工作线程无损拼接本次完整 WAV，单个原生媒体项目提供全局时长、进度和自动结束；最大时长约需 173 MB 临时磁盘空间。结束、失败和下次启动清理临时文件。UI 只读取媒体进度。
 
-[产品规格](docs/product/native-rewrite.md) · [原生架构](docs/architecture/native.md) · [验证记录](docs/verification.md) · [素材来源](docs/audio-sources.md)
+[产品规格](docs/product/native-rewrite.md) · [UI / Figma 设计说明](docs/design/figma.md) · [原生架构](docs/architecture/native.md) · [验证记录](docs/verification.md) · [素材来源](docs/audio-sources.md)
 
 两端的 10 分钟锁屏播放、电话/耳机/蓝牙打断、人工试听及大字布局仍需设备验收；CI 配置存在不代表已运行通过。
 

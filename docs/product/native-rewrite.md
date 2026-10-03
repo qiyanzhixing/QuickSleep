@@ -2,6 +2,8 @@
 
 用户于 2026-10-03 确认：保留旧版功能和视觉设计，完整重写 Android 与 iOS；Android Kotlin、iOS Swift，不采用跨平台客户端框架。legacy 保留且不修改。
 
+UI 设计在 Figma 维护，页面入口、双主题基准和原生代码对应关系见 [UI 设计说明](../design/figma.md)。
+
 ## 产品行为
 
 - 完全离线，无账号、广告、统计、联网音频或运行时 TTS。

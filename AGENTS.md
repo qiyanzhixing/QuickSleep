@@ -3,6 +3,7 @@
 - Android 客户端使用 Kotlin / Jetpack Compose，iOS 客户端使用 Swift / SwiftUI。不引入 Flutter、React Native 或跨平台业务运行时。
 - `legacy/` 为历史参考；不要修改，也不要让新应用依赖其客户端代码。
 - 两端行为以 `docs/product/native-rewrite.md` 为准，平台差异在 `docs/architecture/native.md` 记录。
+- UI 视觉以 Figma 为依据；设计入口、页面节点与原生代码映射见 `docs/design/figma.md`，修改 UI 前先查看对应设计。
 - 共用素材、授权记录和双语源文案放在 `shared/`；运行 `python scripts/prepare_assets.py` 恢复并生成原生资源。
 - 音频播放由原生播放器决定进度和结束，UI 计时器不能切换音轨或停止练习。
 - 业务逻辑、时序、输入校验和资源完整性需要测试；纯视觉 UI 修改不强制 TDD，不增加展示细节测试。
